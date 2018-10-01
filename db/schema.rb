@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180905203922) do
+=======
+ActiveRecord::Schema.define(version: 20180905180831) do
+>>>>>>> 2c168141966668bbcd44aa1dbfddbfed0eaad28c
 
   create_table "figure_titles", force: :cascade do |t|
     t.integer "title_id"
@@ -23,7 +27,10 @@ ActiveRecord::Schema.define(version: 20180905203922) do
   end
 
   create_table "landmarks", force: :cascade do |t|
+<<<<<<< HEAD
     t.string  "name"
+=======
+>>>>>>> 2c168141966668bbcd44aa1dbfddbfed0eaad28c
     t.integer "figure_id"
     t.integer "year_completed"
   end
